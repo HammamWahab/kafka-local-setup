@@ -40,14 +40,14 @@ Run the following commands to interact with Kafka using Python scripts:
 
 `python src/producer.py`
 
-This will start a Python Kafka producer that sends messages to the 'test-topic' in the local Kafka cluster.
+This will start a Python Kafka producer that sends messages to the 'posts' in the local Kafka cluster.
 
 ### Consumer
 
 
 `python src/consumer.py`
 
-This will start a Python Kafka consumer that listens to the 'test-topic' in the local Kafka cluster.
+This will start a Python Kafka consumer that listens to the 'posts' in the local Kafka cluster.
 
 ## Interacting with Kafka using KCat
 ---------------------------------
