@@ -1,7 +1,7 @@
 # Local Kafka Cluster Setup
 =========================
 
-This guide will help you set up a local Kafka cluster for development using Docker and interact with it using Python scripts and KCat.
+This guide will help you set up a local Kafka cluster for development using Docker and interact with it using Python scripts and KCat. This guide is based on the tutorial: [Setting up Kafka on Docker for Local Development](https://hackernoon.com/setting-up-kafka-on-docker-for-local-development).
 
 ## Prerequisites
 -------------
@@ -44,7 +44,6 @@ This will start a Python Kafka producer that sends messages to the 'test-topic' 
 
 ### Consumer
 
-bashCopy code
 
 `python src/consumer.py`
 
